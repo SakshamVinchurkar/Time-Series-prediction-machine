@@ -32,16 +32,16 @@ background-size: 100% 100%;
   <form  action="" method="post" role="form">
     {{ form.csrf }}
     <div class="form-group">
-      <label for="name">Year:</label>
-      <input type="number" class="form-control" id="name" name="name" placeholder="Enter a year Between 1901-2015?" min="1901" max="2015">
+      <label for="name" style= "color:white">Year:</label>
+      <input type="number" class="form-control" id="name" name="name" placeholder="Enter a year Between 1901-2015?" min="1901" max="2015" required>
       <br>
     
  
  
     </div>
     <button type="submit" class="btn btn-success">Submit</button>
-    <a href="/2016" class="btn btn-success">Model</a>
-    <a href="/gif" class="btn btn-success">Predict</a>
+    <a href="/2016" target="_blank" class="btn btn-success">Model</a>
+    <a href="/gif" target="_blank" class="btn btn-success">Predict</a>
   
   </form>
   
